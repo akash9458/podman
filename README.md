@@ -27,19 +27,15 @@ Docsify is a lightweight, flexible, and easy-to-set-up documentation generator t
 Now start a setup by following these steps:
 <br>
 
-
-## Steps:- Install podman 
+**Step 1: Update Your System**
 
 First update and upgrade by using this command :
 ```
 sudo apt update 
-sudo apt update 
+sudo apt upgrade
   ```
 
 Then use podman installation command:
-
-**Step 1: Update Your System**
-
 
 
 **Step 2: Install Podman**
@@ -109,7 +105,7 @@ save this file
 ![Alt text](1.7.png)
 
 
-**Step-4:-Create index.html**
+**Step-6:-Create index.html**
 
 
 please insert button and than
@@ -131,7 +127,7 @@ save this file
 
 Add details in html file:
 
-**Step-5:- Create new file in md format**
+**Step-7:- Create new file in md format**
 
 ```bash
 touch README.md
@@ -144,7 +140,7 @@ Here we can check all files by using this command:
 
 ![Alt text](8.png)
   
-**Step-6:- Build docker image**
+**Step-8:- Build docker image**
 
 ```bash 
 sudo apt  install docker.io
@@ -172,7 +168,7 @@ sudo apt  install docker.io
 
 This command is used to manage container images in Podman.
 
-**Step-7:-Run podman**
+**Step-9:-Run podman**
 
 Create a podman container for docsify.
 
@@ -196,7 +192,7 @@ podman ps -a
 ```
 This command is used to see all containers on your system, both running and stopped.
 
-**Step-8:- Preview Output**
+**Step-10:- Preview Output**
 
 
 README.md ![Alt text](9.png)
